@@ -3,6 +3,7 @@ layout: post
 title: "[Unreal Engine] 블루프린트 기초 정리"
 date: 2026-07-09 12:00:00 +0900
 categories: unreal
+image: /assets/img/blueprint.png
 ---
 
 * 목차
