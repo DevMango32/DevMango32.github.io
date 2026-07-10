@@ -41,4 +41,28 @@
       if (decodeURIComponent(a.pathname) === here) li.classList.add("open");
     });
   });
+
+  /* ===== 방문자 카운터 (counterapi.dev, 누적/오늘/어제) ===== */
+  var cntTotal = document.getElementById("cntTotal");
+  if (cntTotal) {
+    var API = "https://api.counterapi.dev/v1/devmango32-blog/";
+    var kstDate = function (daysAgo) {
+      return new Date(Date.now() + (9 * 3600 - daysAgo * 86400) * 1000).toISOString().slice(0, 10);
+    };
+    var show = function (name, up, el) {
+      fetch(API + name + (up ? "/up" : "/"))
+        .then(function (r) { return r.json(); })
+        .then(function (j) { el.textContent = (j.count || 0).toLocaleString(); })
+        .catch(function () { el.textContent = "0"; });
+    };
+    /* 같은 브라우저 세션에서는 한 번만 집계 */
+    var seen = false;
+    try {
+      seen = sessionStorage.getItem("visited") === "1";
+      sessionStorage.setItem("visited", "1");
+    } catch (e) {}
+    show("total", !seen, cntTotal);
+    show("d-" + kstDate(0), !seen, document.getElementById("cntToday"));
+    show("d-" + kstDate(1), false, document.getElementById("cntYesterday"));
+  }
 })();

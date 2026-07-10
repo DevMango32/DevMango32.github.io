@@ -58,7 +58,12 @@
       <div class="profile">
         <div class="profile-img"></div>
         <div class="profile-name"><a href="/">{{ site.author.name }}</a></div>
-        <p class="profile-desc">{{ site.description }}</p>
+        <p class="profile-desc">{{ site.author.bio }}</p>
+        <div class="profile-stats">
+          <div><b id="cntTotal">–</b><span>누적</span></div>
+          <div><b id="cntToday">–</b><span>오늘</span></div>
+          <div><b id="cntYesterday">–</b><span>어제</span></div>
+        </div>
       </div>
 
       <!-- search: 구글 site: 검색으로 대체 -->
@@ -101,18 +106,13 @@
         </li></ul>
       </div>
 
-      <!-- visitor count -->
-      <div class="sb-visit">
-        <img class="hit-badge" src="https://hits.sh/devmango32.github.io.svg?style=flat&label=%EB%B0%A9%EB%AC%B8&color=b8860b" alt="방문자 수">
-      </div>
-
     </aside>
 
   </div>
 
   <!-- ===== footer ===== -->
   <footer class="footer">
-    <span>© {{ site.title }}</span>
+    <span>© {{ site.author.name }}</span>
     <span class="foot-links">
       <a href="/feed.xml">RSS</a>
       <a href="https://github.com/DevMango32">GitHub</a>

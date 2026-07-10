@@ -1,5 +1,5 @@
-title: 망고의 개발 블로그
-description: 언리얼엔진, 유니티, 게임수학 등 개발 학습 기록
+title: 반갑습니다
+description: 정보 기록용 블로그
 url: "https://devmango32.github.io"
 lang: ko
 timezone: Asia/Seoul
@@ -9,7 +9,8 @@ plugins:
   - jekyll-feed
 
 author:
-  name: DevMango32
+  name: 맹고
+  bio: 맛집, 리뷰, 일상, 개발 등 여러 가지를 기록합니다.
 
 permalink: /:categories/:title/
 
