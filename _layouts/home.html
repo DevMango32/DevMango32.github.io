@@ -7,7 +7,7 @@ layout: default
   <i></i>
 </div>
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <article class="post">
   <a class="card" href="{{ post.url }}">
     {% if post.image %}
@@ -24,4 +24,15 @@ layout: default
   </a>
 </article>
 {% endfor %}
-<!-- ponytail: 페이징 생략, 글이 한 페이지를 넘기면 jekyll-paginate 추가 -->
+
+{% if paginator.total_pages > 1 %}
+<nav class="pager">
+  {% if paginator.previous_page %}
+  <a class="pager-prev" href="{{ paginator.previous_page_path }}">← 이전</a>
+  {% endif %}
+  <span class="pager-num">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+  <a class="pager-next" href="{{ paginator.next_page_path }}">다음 →</a>
+  {% endif %}
+</nav>
+{% endif %}

@@ -248,6 +248,12 @@ html.dark .darkToggle .knob{left:17px}
 }
 .sb-category li.current > a .c_cnt{color:var(--accent)}
 
+/* ===== home pager ===== */
+.pager{display:flex; align-items:center; justify-content:center; gap:18px; padding-top:6px; font-size:13.5px}
+.pager a{color:var(--muted); padding:7px 14px; border:1px solid var(--line); border-radius:8px; transition:color .15s,border-color .15s}
+.pager a:hover{color:var(--accent); border-color:var(--accent)}
+.pager-num{color:var(--faint); font-size:12.5px}
+
 /* ===== footer ===== */
 .footer{
   display:flex; align-items:center; justify-content:space-between;

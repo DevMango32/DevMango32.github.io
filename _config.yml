@@ -7,6 +7,10 @@ timezone: Asia/Seoul
 theme: minima  # ponytail: 레이아웃은 _layouts/가 전부 덮어씀. feed 등 GH Pages 기본 동작용으로만 유지
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 7
+paginate_path: "/page:num/"
 
 author:
   name: 맹고
