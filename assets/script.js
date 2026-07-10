@@ -8,6 +8,9 @@
     btn.addEventListener("click", function () {
       var dark = root.classList.toggle("dark");
       try { localStorage.setItem("skin-theme", dark ? "dark" : "light"); } catch (e) {}
+      /* giscus 댓글창 테마 동기화 */
+      var gf = document.querySelector("iframe.giscus-frame");
+      if (gf) gf.contentWindow.postMessage({ giscus: { setConfig: { theme: dark ? "dark" : "light" } } }, "https://giscus.app");
     });
   }
 
@@ -64,5 +67,40 @@
     show("total", !seen, cntTotal);
     show("d-" + kstDate(0), !seen, document.getElementById("cntToday"));
     show("d-" + kstDate(1), false, document.getElementById("cntYesterday"));
+  }
+
+  /* ===== 글 좋아요 (counterapi.dev, 브라우저당 1회) ===== */
+  var likeBtn = document.getElementById("likeBtn");
+  if (likeBtn) {
+    var likeCnt = document.getElementById("likeCnt");
+    var likeKey = "like-" + location.pathname.replace(/[^a-zA-Z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    var LAPI = "https://api.counterapi.dev/v1/devmango32-blog/";
+    try { if (localStorage.getItem(likeKey) === "1") likeBtn.classList.add("liked"); } catch (e) {}
+    fetch(LAPI + likeKey + "/")
+      .then(function (r) { return r.json(); })
+      .then(function (j) { likeCnt.textContent = j.count || 0; })
+      .catch(function () { likeCnt.textContent = "0"; });
+    likeBtn.addEventListener("click", function () {
+      if (likeBtn.classList.contains("liked")) return;
+      likeBtn.classList.add("liked");
+      try { localStorage.setItem(likeKey, "1"); } catch (e) {}
+      fetch(LAPI + likeKey + "/up")
+        .then(function (r) { return r.json(); })
+        .then(function (j) { likeCnt.textContent = j.count || 0; })
+        .catch(function () {});
+    });
+  }
+
+  /* ===== 글 공유 (모바일: 공유 시트, PC: 링크 복사) ===== */
+  var shareBtn = document.getElementById("shareBtn");
+  if (shareBtn) {
+    shareBtn.addEventListener("click", function () {
+      if (navigator.share) { navigator.share({ title: document.title, url: location.href }); return; }
+      navigator.clipboard.writeText(location.href).then(function () {
+        var t = shareBtn.querySelector("span");
+        t.textContent = "링크 복사됨!";
+        setTimeout(function () { t.textContent = "공유"; }, 1500);
+      });
+    });
   }
 })();

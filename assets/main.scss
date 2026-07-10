@@ -180,6 +180,20 @@ html.dark .darkToggle .knob{left:17px}
 .entry-tags a{font-size:12px; padding:5px 11px; background:var(--chip); border-radius:20px; color:var(--muted)}
 .entry-tags a:hover{color:var(--accent)}
 
+/* like / share / comments */
+.post-actions{display:flex; justify-content:center; gap:10px; margin:40px 0 6px}
+.act-btn{
+  display:inline-flex; align-items:center; gap:7px; padding:9px 18px;
+  border:1px solid var(--line); border-radius:20px; background:none;
+  color:var(--muted); font:inherit; font-size:13.5px; cursor:pointer;
+  transition:color .15s,border-color .15s;
+}
+.act-btn:hover{color:var(--accent); border-color:var(--accent)}
+.act-btn svg{width:15px; height:15px; fill:none; stroke:currentColor; stroke-width:1.8}
+.act-btn.liked{color:var(--accent); border-color:var(--accent)}
+.act-btn.liked svg{fill:var(--accent)}
+#comments{margin-top:30px}
+
 /* prev / next */
 .pn-nav{max-width:860px; margin:34px auto 0; width:100%; display:flex; flex-direction:column; gap:1px}
 .pn-nav a{

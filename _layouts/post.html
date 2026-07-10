@@ -12,6 +12,44 @@ layout: default
       {% for tag in page.tags %}<a>{{ tag }}</a>{% endfor %}
     </div>
     {% endif %}
+
+    <!-- like / share -->
+    <div class="post-actions">
+      <button type="button" id="likeBtn" class="act-btn" aria-label="좋아요">
+        <svg viewBox="0 0 24 24"><path d="M12 21C12 21 4 13.9 4 8.8 4 6 6.2 4 8.8 4c1.5 0 2.7.7 3.2 1.5C12.5 4.7 13.7 4 15.2 4 17.8 4 20 6 20 8.8c0 5.1-8 12.2-8 12.2z"/></svg>
+        <span id="likeCnt">–</span>
+      </button>
+      <button type="button" id="shareBtn" class="act-btn" aria-label="공유">
+        <svg viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.5"/><circle cx="17" cy="6" r="2.5"/><circle cx="17" cy="18" r="2.5"/><path d="M8.2 10.8l6.6-3.6M8.2 13.2l6.6 3.6"/></svg>
+        <span>공유</span>
+      </button>
+    </div>
+
+    <!-- comments (giscus, GitHub Discussions) -->
+    <div id="comments"></div>
+    <script>
+    (function () {
+      var s = document.createElement("script");
+      s.src = "https://giscus.app/client.js";
+      s.async = true;
+      s.crossOrigin = "anonymous";
+      var cfg = {
+        "data-repo": "DevMango32/DevMango32.github.io",
+        "data-repo-id": "R_kgDONRpnIQ",
+        "data-category": "Announcements",
+        "data-category-id": "DIC_kwDONRpnIc4DA3px",
+        "data-mapping": "pathname",
+        "data-strict": "0",
+        "data-reactions-enabled": "0",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-lang": "ko",
+        "data-theme": document.documentElement.classList.contains("dark") ? "dark" : "light"
+      };
+      for (var k in cfg) s.setAttribute(k, cfg[k]);
+      document.getElementById("comments").appendChild(s);
+    })();
+    </script>
   </div>
 </article>
 
