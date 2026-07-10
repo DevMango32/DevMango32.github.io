@@ -1,6 +1,6 @@
 ---
 layout: category
 category: unreal
-title: unreal
+title: 언리얼
 permalink: /unreal/
 ---

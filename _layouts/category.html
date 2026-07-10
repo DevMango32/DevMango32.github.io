@@ -4,7 +4,7 @@ layout: default
 {% assign posts = site.categories[page.category] %}
 <div class="searchList">
   <div class="list-title">
-    <h2><em>'{{ page.category }}'</em> 글 {{ posts.size }}건</h2>
+    <h2><em>'{{ page.title }}'</em> 글 {{ posts.size }}건</h2>
   </div>
   <ol class="list-ol">
     {% for post in posts %}

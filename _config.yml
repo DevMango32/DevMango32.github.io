@@ -12,3 +12,16 @@ author:
   name: DevMango32
 
 permalink: /:categories/:title/
+
+# 사이드바 카테고리 트리 (글이 없는 항목은 자동으로 숨겨짐)
+category_nav:
+  - name: 게임 개발
+    subs:
+      - { slug: unreal, name: 언리얼 }
+      - { slug: unity, name: 유니티 }
+      - { slug: game, name: 게임 }
+  - name: 프로그래밍
+    subs:
+      - { slug: python, name: 파이썬 }
+      - { slug: design-pattern, name: 디자인 패턴 }
+      - { slug: gamemath, name: 게임 수학 }

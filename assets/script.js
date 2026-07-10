@@ -29,6 +29,12 @@
     btn.setAttribute("aria-label", "하위 카테고리 펼치기/접기");
     li.insertBefore(btn, sub);
     btn.addEventListener("click", function () { li.classList.toggle("open"); });
+    /* 상위 카테고리는 링크가 아니므로 이름 클릭으로도 펼침 */
+    var head = li.querySelector(":scope > a:not([href])");
+    if (head) {
+      head.style.cursor = "pointer";
+      head.addEventListener("click", function () { li.classList.toggle("open"); });
+    }
     /* 지금 보고 있는 하위 카테고리가 속한 묶음은 펼친 채로 시작 */
     var here = decodeURIComponent(location.pathname);
     sub.querySelectorAll("a").forEach(function (a) {
