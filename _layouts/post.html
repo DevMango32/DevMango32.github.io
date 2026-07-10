@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post">
+  <div class="entry">
+    <div class="entry-cat"><a href="/{{ page.categories | first }}/">{{ page.categories | first }}</a></div>
+    <h1 class="entry-title">{{ page.title }}</h1>
+    <div class="entry-meta">{{ site.author.name }} · {{ page.date | date: "%Y. %m. %d. %H:%M" }}</div>
+    <div class="entry-content">{{ content }}</div>
+    {% if page.tags != empty %}
+    <div class="entry-tags"><span class="t-label">Tag</span>
+      {% for tag in page.tags %}<a>{{ tag }}</a>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</article>
+
+<!-- prev / next -->
+<nav class="pn-nav">
+  {% if page.previous %}<a href="{{ page.previous.url }}"><span class="pn-dir">이전</span><span>{{ page.previous.title }}</span></a>{% endif %}
+  {% if page.next %}<a href="{{ page.next.url }}"><span class="pn-dir">다음</span><span>{{ page.next.title }}</span></a>{% endif %}
+</nav>

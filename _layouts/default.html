@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+<link rel="stylesheet" href="/assets/main.css">
+<script>
+  /* no-flash theme restore */
+  (function(){try{if(localStorage.getItem('skin-theme')==='dark')document.documentElement.classList.add('dark');}catch(e){}})();
+</script>
+</head>
+<body id="{% if page.url == '/' %}tt-body-index{% else %}tt-body-page{% endif %}">
+
+<div class="skin">
+
+  <!-- ===== utility top bar (shared) ===== -->
+  <div class="topbar">
+    <div class="tb-inner">
+      <span class="tb-vol" id="tbDate"></span>
+      <div class="tb-right">
+        <button type="button" class="darkToggle" id="darkToggle" aria-label="다크모드 전환">
+          <svg class="dt-ic" viewBox="0 0 24 24" stroke-width="1.8"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <span class="dt-label">다크모드</span>
+          <span class="switch"><span class="knob"></span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== masthead (home only, hidden on other pages via body-id CSS) ===== -->
+  <header class="masthead">
+    <div class="mh-rule"><span></span><i></i><span></span></div>
+    <h1 class="mh-title"><a href="/">{{ site.title }}</a></h1>
+    <p class="mh-desc">{{ site.description }}</p>
+  </header>
+
+  <div class="body">
+
+    <!-- ===================== MAIN ===================== -->
+    <main class="main">
+      {{ content }}
+    </main>
+
+    <!-- ===================== SIDEBAR ===================== -->
+    <aside class="sidebar">
+
+      <!-- profile -->
+      <div class="profile">
+        <div class="profile-img"></div>
+        <div class="profile-name"><a href="/">{{ site.author.name }}</a></div>
+        <p class="profile-desc">{{ site.description }}</p>
+      </div>
+
+      <!-- search: 구글 site: 검색으로 대체 -->
+      <div class="search">
+        <form method="get" action="https://www.google.com/search" onsubmit="this.q.value += ' site:{{ site.url | remove: 'https://' }}'">
+          <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3-3"/></svg>
+          <input type="text" name="q" placeholder="검색어를 입력하세요">
+        </form>
+      </div>
+
+      <!-- category — 발행된 글의 카테고리가 자동 반영 -->
+      <div class="sb-category">
+        <h2 class="sb-title">카테고리</h2>
+        <ul class="tt_category"><li>
+          <ul class="category_list">
+            {% for cat in site.categories %}
+            {% assign cat_url = "/" | append: cat[0] | append: "/" %}
+            <li{% if page.url == cat_url %} class="current"{% endif %}>
+              <a class="link_item" href="{{ cat_url }}">{{ cat[0] }} <span class="c_cnt">{{ cat[1].size }}</span></a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li></ul>
+      </div>
+
+    </aside>
+
+  </div>
+
+  <!-- ===== footer ===== -->
+  <footer class="footer">
+    <span>© {{ site.title }}</span>
+    <span class="foot-links">
+      <a href="/feed.xml">RSS</a>
+      <a href="https://github.com/DevMango32">GitHub</a>
+    </span>
+  </footer>
+
+</div>
+
+<script src="/assets/script.js"></script>
+</body>
+</html>

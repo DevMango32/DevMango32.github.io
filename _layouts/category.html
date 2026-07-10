@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% assign posts = site.categories[page.category] %}
+<div class="searchList">
+  <div class="list-title">
+    <h2><em>'{{ page.category }}'</em> 글 {{ posts.size }}건</h2>
+  </div>
+  <ol class="list-ol">
+    {% for post in posts %}
+    <li>
+      <a class="list-item" href="{{ post.url }}">
+        {% if post.image %}
+        <span class="li-thumb"><img src="{{ post.image }}" alt=""></span>
+        {% endif %}
+        <span class="li-body">
+          <span class="li-title">{{ post.title }}</span>
+          <span class="li-meta">
+            <span>{{ post.date | date: "%Y. %m. %d." }}</span>
+          </span>
+        </span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
