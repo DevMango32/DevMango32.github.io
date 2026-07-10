@@ -252,7 +252,8 @@ html.dark .darkToggle .knob{left:17px}
 }
 .footer a{color:var(--faint)}
 .footer a:hover{color:var(--accent)}
-.foot-links{display:flex; gap:16px}
+.foot-links{display:flex; gap:16px; align-items:center}
+.hit-badge{height:18px; display:block}
 
 /* ===== responsive ===== */
 @media (max-width:820px){
