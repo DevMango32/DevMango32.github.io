@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Unreal Engine] 0. 언리얼 엔진이란?"
+title: "[Unreal Engine] 언리얼 엔진이란?"
 date: 2024-01-10 00:21:28 +0900
 categories: unreal
 image: /assets/img/unreal-0-what-is-unreal-engine-1.png

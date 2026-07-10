@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Unreal Engine] 2. 화면 구성 — 메뉴 바, 툴바, Place Actors"
+title: "[Unreal Engine] 화면 구성 — 메뉴 바, 툴바, Place Actors"
 date: 2024-01-25 20:35:28 +0900
 categories: unreal
 image: /assets/img/unreal-2-editor-layout-1.png

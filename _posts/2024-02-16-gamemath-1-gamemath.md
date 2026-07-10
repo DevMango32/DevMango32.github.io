@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[게임 수학] 1. 게임 수학이란?"
+title: "[게임 수학] 게임 수학이란?"
 date: 2024-02-16 02:59:36 +0900
 categories: gamemath
 ---

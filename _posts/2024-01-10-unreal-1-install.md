@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Unreal Engine] 1. 언리얼 엔진 설치"
+title: "[Unreal Engine] 언리얼 엔진 설치"
 date: 2024-01-10 01:34:15 +0900
 categories: unreal
 image: /assets/img/unreal-1-install-1.png

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[게임 수학] 2. 수 — 가상 세계를 구성하는 가장 작은 단위"
+title: "[게임 수학] 수 — 가상 세계를 구성하는 가장 작은 단위"
 date: 2024-02-19 17:40:20 +0900
 categories: gamemath
 image: /assets/img/gamemath-2-number-1.png

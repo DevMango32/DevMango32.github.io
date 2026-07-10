@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[게임 수학] 0. 이득우의 게임 수학 — 시리즈를 시작하며"
+title: "[게임 수학] 이득우의 게임 수학 — 시리즈를 시작하며"
 date: 2024-02-14 19:09:58 +0900
 categories: gamemath
 image: /assets/img/gamemath-0-intro-1.png
