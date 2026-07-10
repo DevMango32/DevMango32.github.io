@@ -20,9 +20,19 @@ category_nav:
     subs:
       - { slug: unreal, name: 언리얼 }
       - { slug: unity, name: 유니티 }
-      - { slug: game, name: 게임 }
+      - { slug: gamemath, name: 게임 수학 }
+      - { slug: game-theory, name: 게임 이론 }
+      - { slug: modeling, name: 모델링 }
+      - { slug: design-pattern, name: 디자인 패턴 }
   - name: 프로그래밍
     subs:
       - { slug: python, name: 파이썬 }
-      - { slug: design-pattern, name: 디자인 패턴 }
-      - { slug: gamemath, name: 게임 수학 }
+      - { slug: algorithm, name: 알고리즘 }
+      - { slug: git, name: Git }
+  - name: 게임 소식·리뷰
+    subs:
+      - { slug: game-review, name: 게임 리뷰 }
+      - { slug: game-news, name: 게임 소식 }
+  - name: 일상
+    subs:
+      - { slug: food, name: 맛따라 }
