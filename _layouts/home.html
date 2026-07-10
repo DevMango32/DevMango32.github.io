@@ -29,10 +29,14 @@ layout: default
 <nav class="pager">
   {% if paginator.previous_page %}
   <a class="pager-prev" href="{{ paginator.previous_page_path }}">← 이전</a>
+  {% else %}
+  <span class="pager-prev disabled">← 이전</span>
   {% endif %}
   <span class="pager-num">{{ paginator.page }} / {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
   <a class="pager-next" href="{{ paginator.next_page_path }}">다음 →</a>
+  {% else %}
+  <span class="pager-next disabled">다음 →</span>
   {% endif %}
 </nav>
 {% endif %}

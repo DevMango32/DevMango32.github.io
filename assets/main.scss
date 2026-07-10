@@ -253,6 +253,7 @@ html.dark .darkToggle .knob{left:17px}
 .pager a{color:var(--muted); padding:7px 14px; border:1px solid var(--line); border-radius:8px; transition:color .15s,border-color .15s}
 .pager a:hover{color:var(--accent); border-color:var(--accent)}
 .pager-num{color:var(--faint); font-size:12.5px}
+.pager .disabled{color:var(--faint); opacity:.45; padding:7px 14px; border:1px solid var(--line); border-radius:8px}
 
 /* ===== footer ===== */
 .footer{
