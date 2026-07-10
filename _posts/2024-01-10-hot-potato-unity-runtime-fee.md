@@ -5,9 +5,6 @@ date: 2024-01-10 00:55:22 +0900
 categories: game-news
 ---
 
-* 목차
-{:toc}
-
 말이 많았던 유니티의 새 런타임 요금제(Runtime Fee)를 짧게 짚고 넘어가려 한다.
 
 ## Runtime Fee란

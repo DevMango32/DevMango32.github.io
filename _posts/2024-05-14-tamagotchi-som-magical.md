@@ -6,9 +6,6 @@ categories: game-review
 image: /assets/img/tamagotchi-som-magical-1.png
 ---
 
-* 목차
-{:toc}
-
 정말 오랜만에 블로그 글을 적어봅니당! 요즘 바빠서 소홀해진 것 같네요..
 
 ## 나에게 주는 어린이날 선물

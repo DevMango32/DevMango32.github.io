@@ -6,9 +6,6 @@ categories: game-review
 image: /assets/img/zelda-botw-review-1.jpg
 ---
 
-* 목차
-{:toc}
-
 ![](/assets/img/zelda-botw-review-1.jpg)
 *▲ 젤다의 전설: 브레스 오브 더 와일드*
 

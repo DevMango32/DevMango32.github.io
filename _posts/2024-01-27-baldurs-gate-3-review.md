@@ -6,9 +6,6 @@ categories: game-review
 image: /assets/img/baldurs-gate-3-review-1.jpg
 ---
 
-* 목차
-{:toc}
-
 ## 서론
 
 원래 다음 게임 리뷰로 해리포터를 하려 했는데, 젤다의 전설: 야숨을 하고 나니 해리포터 튜토리얼이 지루하게 느껴졌습니다. 그래서 올해의 게임으로 선정된 **발더스 게이트 3**를 잡게 되었습니다.
