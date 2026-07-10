@@ -5,13 +5,16 @@ date: 2023-12-28 14:49:03 +0900
 categories: unity
 ---
 
+* 목차
+{:toc}
+
 Rigidbody는 스크립트로 속성을 수정할 수 있다.
 
 백문이 불여일견 스크립트를 통해 배우자
 
 ---
 
-### - 스크립트로 Rigidbody 컴포넌트 속성 변경하기
+## 스크립트로 Rigidbody 컴포넌트 속성 변경하기
 
 ```csharp
 using UnityEngine;
@@ -37,7 +40,7 @@ public class ChangeRigidbodyProperties : MonoBehaviour
 
 ---
 
-### - 스크립트로 Rigidbody 컴포넌트 움직임 제어하기
+## 스크립트로 Rigidbody 컴포넌트 움직임 제어하기
 
 ```csharp
 using UnityEngine;
@@ -64,7 +67,7 @@ public class RigidbodyController : MonoBehaviour
 }
 ```
 
-### - MovePosition 함수
+## MovePosition 함수
 
 게임 오브젝트의 위치를 변경한다.
 
@@ -76,7 +79,7 @@ void Move(float input)
 }
 ```
 
-### - MoveRotation 함수
+## MoveRotation 함수
 
 게임 오브젝트의 회전을 변경한다.
 
@@ -91,7 +94,7 @@ void Rotate(float input)
 
 ---
 
-### - 스크립트로 Rigidbody 컴포넌트 힘 제어하기
+## 스크립트로 Rigidbody 컴포넌트 힘 제어하기
 
 ```csharp
 using UnityEngine;
@@ -120,7 +123,7 @@ public class ApplyForceAndTorque : MonoBehaviour
 }
 ```
 
-### - AddForce 함수
+## AddForce 함수
 
 특정 방향으로 힘을 가한다.
 
@@ -132,7 +135,7 @@ void ApplyForce()
 }
 ```
 
-### - AddTorque 함수
+## AddTorque 함수
 
 특정방향으로 회전한다.
 

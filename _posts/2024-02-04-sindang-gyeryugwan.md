@@ -13,11 +13,7 @@ image: /assets/img/sindang-gyeryugwan-1.jpg
 
 <https://naver.me/xTbuLK2w>
 
-[네이버 지도
-
-신당 계류관
-
-map.naver.com](https://map.naver.com/p/entry/place/1872804243)
+[네이버 지도](https://map.naver.com/p/entry/place/1872804243)
 
 ---
 
@@ -40,7 +36,7 @@ map.naver.com](https://map.naver.com/p/entry/place/1872804243)
   
   
   
-**추천도: 4  /  5**
+**추천도: 4  /  5**
 
 ---
 

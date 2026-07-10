@@ -14,7 +14,7 @@ image: /assets/img/game-theory-genre-1.png
 
 ---
 
-#### **- 게임 콘솔 (Game Consoles)**
+#### 게임 콘솔 (Game Consoles)
 
 게임 콘솔은 게임 플레이를 위한 전자 기기이다.
 
@@ -22,23 +22,22 @@ image: /assets/img/game-theory-genre-1.png
 
 이런 콘솔에서 플레이되는 게임들을 콘솔 게임이라고 한다.
 
-#### - **게임 기술 (Gaming Technologies)**
+#### **게임 기술 (Gaming Technologies)**
 
 - VR (Virtual Reality): 가상 현실. 현실과 무관한 컴퓨터가 만든 시뮬레이션 환경에 사용자가 들어가는 방식이다.
 - AR (Augmented Reality): 증강 현실. 현실 세계에 가상 요소를 덧입히는 방식이며, 가상 요소와는 상호작용할 수 없다.
 - MR (Mixed Reality): VR과 AR의 장점을 혼합한 기술로, 현실 세계에서 가상 요소와 상호작용이 가능하다.
 
-#### **- 게임 장르 (Game Genres)**
+#### 게임 장르 (Game Genres)
 
 ![](/assets/img/game-theory-genre-1.png)
-
-Steam - 게임 카테고리
+*▲ Steam - 게임 카테고리*
 
 - **액션 게임 (Action Game):** 플레이어는 실시간으로 캐릭터의 행동을 제어하고 조작하는 게임이다.
 
 - **롤플레잉 게임 (Role-Playing Game):** 게임 캐릭터의 배경,성격등 역할에 맞게 몰입하여 하는 게임이다.
   - MORPG(Multiplayer Online RPG): 멀티플레이어 온라인 RPG이다.
-  - MMORPG(Massively Multiplayer Online RPG): 같은 공간에서 대규모 멀티플레이어 온라인 RPG 이다.전략 롤플레잉 게임(SRPG, strategy RPG): 전략 시뮬레이션 요소가 강조된 RPG이다.
+  - MMORPG(Massively Multiplayer Online RPG): 같은 공간에서 대규모 멀티플레이어 온라인 RPG 이다.전략 롤플레잉 게임(SRPG, strategy RPG): 전략 시뮬레이션 요소가 강조된 RPG이다.
   - 소울라이크(Souls like)  
     프롬 소프트웨어에서 개발한 소울 시리즈에 영향을 받은 게임으로 높은 난이도를 기반으로 한 복합 RPG이다.
   - 액션 롤플레잉 게임 (ARPG, Action RPG): 액션 요소가 강조된 RPG이다.
@@ -66,9 +65,9 @@ Steam - 게임 카테고리
 - **전략게임 (Strategy game)**
   - 실시간 전략 게임 (RTS, Real-Time Strategy): 실시간으로 전략을 짜는 게임 이며, 대표적으로 스타크래프트가 있다.
   - 실시간 전술 게임(RTT, Real Time Tactics): 전략 게임에서 특히 전술적인 요소만 다루는 게임이며 전술 이상의 개념인 생산 같은 개념이 배제된다.
-  - AOS(Aeon of Strife): 스타크래프트의 유즈맵의 Aeon of Strife의 약자로 실시간 전략 + RPG 합한 게임이다.
+  - AOS(Aeon of Strife): 스타크래프트의 유즈맵의 Aeon of Strife의 약자로 실시간 전략 + RPG 합한 게임이다.
   - MOBA (Multiplayer Online Battle Arena): 제작사 라이엇 게임즈가 만든 새로운 장르명으로 AOS와 같은 의미를 갖고 있다.
-  - 4X:  eXplore(탐험), eXpand(확장), eXploit(개발) and eXterminate(섬멸)을 의미한다. 가장 대표적인 게임은 문명 시리즈이다.
+  - 4X:  eXplore(탐험), eXpand(확장), eXploit(개발) and eXterminate(섬멸)을 의미한다. 가장 대표적인 게임은 문명 시리즈이다.
 
 - **어드벤쳐 게임(Adventure Game):** 주인공이 겪는 여러가지의 모험 게임으로 대표적으로 '툼레이더'가 있다.
 
