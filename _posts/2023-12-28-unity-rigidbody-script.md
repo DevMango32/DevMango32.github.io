@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "유니티 물리엔진(Unity Physics) - Rigidbody Script"
+title: "[Unity] 유니티 물리엔진(Physics) - Rigidbody 스크립트 제어"
 date: 2023-12-28 14:49:03 +0900
 categories: unity
 ---
@@ -8,9 +8,7 @@ categories: unity
 * 목차
 {:toc}
 
-Rigidbody는 스크립트로 속성을 수정할 수 있다.
-
-백문이 불여일견 스크립트를 통해 배우자
+Rigidbody는 스크립트로 속성을 수정하고 움직임을 제어할 수 있다. 백문이 불여일견, 스크립트로 직접 배워보자.
 
 ---
 

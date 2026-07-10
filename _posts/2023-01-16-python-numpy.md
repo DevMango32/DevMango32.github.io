@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python - NumPy"
+title: "[Python] NumPy란?"
 date: 2023-01-16 17:02:01 +0900
 categories: python
 image: /assets/img/python-numpy-1.png
@@ -10,29 +10,26 @@ image: /assets/img/python-numpy-1.png
 {:toc}
 
 ![](/assets/img/python-numpy-1.png)
+*▲ NumPy 로고*
 
-## What is NumPy?
+## NumPy란?
 
-  Numpy는 C언어로 구현된 수치해석용 파이썬 라이브러리이다. 다차원의 배열 자료구조 클래스인 ndarray 클래스를 지원하며 벡터와 행렬을 사용하는 선형대수 계산에 주로 사용된다.
+**NumPy(넘파이)**는 C언어로 구현된 수치해석용 파이썬 라이브러리다. 다차원 배열 자료구조인 `ndarray` 클래스를 지원하며, 벡터와 행렬을 다루는 선형대수 계산에 주로 사용된다.
 
-## Why use  NumPy?
+## 왜 NumPy를 쓰는가
 
- 파이썬에서 리스트는 여러개의 값들을 저장할 수 있어서 활용도가 높다. 허나 데이터를  처리하기위해서는 리스트와 리스트간의 다양한 연산이 필요하다.  리스트는 이러한 기능이 부족하며 연산의 속도도 빠르지 않다.
+파이썬의 리스트는 여러 값을 담을 수 있어 활용도가 높지만, 데이터 처리에 필요한 리스트 간 연산 기능이 부족하고 속도도 느리다.
 
- 넘파이는 C언어에 기반한 배열 구조이므로 메모리를 적게 차지하여 대용량의 배열과 행렬을 빠르게 수행한다. 또한 고차원적인 수학 연산자, 고급연산자, 풍부한 함수를 포함하고있다.
+넘파이는 C언어 기반 배열 구조라 메모리를 적게 차지하고, 대용량 배열·행렬 연산을 빠르게 수행한다. 여기에 고차원 수학 연산자와 풍부한 내장 함수까지 갖추고 있다.
 
-## How to use NumPy?
+## 사용 방법
 
-넘파이를 사용하기 위해서는 다음과 같이 라이브러리를 불러야한다.
-
-as 뒤에 나타나는 이름은 as 앞의 이름을 대체하는 별칭이다.
+넘파이는 다음과 같이 불러온다. `as` 뒤의 이름은 라이브러리를 대신 부를 별칭이다.
 
 ```python
 import numpy as np
 ```
 
-## NumPy Reference
+## 참고
 
-**numpy 참고:****<https://numpy.org/doc/stable/reference/index.html>**
-
-[NumPy Reference — NumPy v1.24 Manual](https://numpy.org/doc/stable/reference/index.html)
+공식 문서: [NumPy Reference](https://numpy.org/doc/stable/reference/index.html)
