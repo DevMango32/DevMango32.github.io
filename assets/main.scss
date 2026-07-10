@@ -363,6 +363,12 @@ html.dark .darkToggle .knob{left:17px}
 .entry-content blockquote.summary ul{margin:0; padding-left:18px}
 .entry-content blockquote.summary p{margin:0}
 
+/* 지도 임베드 */
+.entry-content .map-embed{
+  width:100%; height:340px; border:1px solid var(--line); border-radius:10px;
+  display:block; margin:10px 0 26px;
+}
+
 /* 점 구분선: 본문의 --- */
 .entry-content hr{
   border:none; margin:38px auto; width:6px; height:6px;
