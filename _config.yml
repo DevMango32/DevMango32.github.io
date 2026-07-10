@@ -8,6 +8,7 @@ theme: minima  # ponytail: 레이아웃은 _layouts/가 전부 덮어씀. feed �
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 7
 paginate_path: "/page:num/"
