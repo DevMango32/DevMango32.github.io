@@ -204,6 +204,8 @@ html.dark .darkToggle .knob{left:17px}
 .pn-nav .pn-dir{font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); flex:none; width:52px}
 
 /* ===== sidebar ===== */
+/* 글 페이지에서는 마스트헤드가 없어 프로필이 너무 위에 붙으므로 살짝 내림 */
+#tt-body-page .sidebar{padding-top:56px}
 .sidebar{
   width:270px; flex:none; display:flex; flex-direction:column; gap:26px;
   border-right:1px solid var(--line); padding-right:46px;
