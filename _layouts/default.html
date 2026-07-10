@@ -10,6 +10,14 @@
   /* no-flash theme restore */
   (function(){try{if(localStorage.getItem('skin-theme')==='dark')document.documentElement.classList.add('dark');}catch(e){}})();
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-54405367MV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-54405367MV');
+</script>
 </head>
 <body id="{% if page.url == '/' %}tt-body-index{% else %}tt-body-page{% endif %}">
 
