@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
-<link rel="stylesheet" href="/assets/main.css?v=13">
+<link rel="stylesheet" href="/assets/main.css?v=14">
 <script>
   /* no-flash theme restore */
   (function(){try{if(localStorage.getItem('skin-theme')==='dark')document.documentElement.classList.add('dark');}catch(e){}})();
@@ -59,6 +59,7 @@
         <div class="profile-img"></div>
         <div class="profile-name"><a href="/">{{ site.author.name }}</a></div>
         <p class="profile-desc">{{ site.author.bio }}</p>
+        <a class="profile-link" href="https://devmango32.github.io/CrossWord/">🧩 낱말퀴즈 풀러가기</a>
         <div class="profile-stats">
           <div><b id="cntTotal">–</b><span>누적</span></div>
           <div><b id="cntToday">–</b><span>오늘</span></div>
