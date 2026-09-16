@@ -306,6 +306,9 @@ html.dark .darkToggle .knob{left:17px}
 
 /* 리드문: 첫 문단만 살짝 크게 */
 .entry-content > p:first-of-type{font-size:17.5px; line-height:1.75}
+.entry-content.compact-body p,.entry-content.compact-body li{
+  line-height:1.72; letter-spacing:-.012em;
+}
 
 /* h2 번호 뱃지 */
 .entry-content{counter-reset:section}
@@ -342,16 +345,16 @@ html.dark .darkToggle .knob{left:17px}
   text-align:center; margin:-17px 0 26px;
 }
 
-/* 이어지는 과정 사진 2장 */
-.entry-content .image-pair{
-  display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px;
+/* 이어지는 과정 사진 3장 */
+.entry-content .image-row{
+  display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px;
   max-width:680px; margin:26px auto;
 }
-.entry-content .image-pair figure{margin:0; min-width:0}
-.entry-content .image-pair img{
+.entry-content .image-row figure{margin:0; min-width:0}
+.entry-content .image-row img{
   width:100%; height:auto; aspect-ratio:4/3; object-fit:cover; margin:0;
 }
-.entry-content .image-pair figcaption{
+.entry-content .image-row figcaption{
   margin-top:8px; color:var(--faint); font-size:12.5px; text-align:center;
 }
 

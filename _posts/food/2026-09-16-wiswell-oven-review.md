@@ -5,6 +5,12 @@ date: 2026-09-16 15:00:00 +0900
 categories: food
 image: /assets/img/wiswell-oven-1.jpg
 tags: [위즈웰, 위즈웰오븐, 가정용오븐, 홈베이킹, 베이킹초보]
+compact_body: true
+---
+
+* 목차
+{:toc}
+
 ---
 
 베이킹을 시작하면서 가정용 오븐을 알아보다가 **위즈웰 오븐**을 구매했습니다.
@@ -13,11 +19,6 @@ tags: [위즈웰, 위즈웰오븐, 가정용오븐, 홈베이킹, 베이킹초�
 
 ![](/assets/img/wiswell-oven-1.jpg)
 *▲ 현재 사용 중인 위즈웰 오븐*
-
-* 목차
-{:toc}
-
----
 
 ## 🔎 위즈웰 오븐을 고른 이유 {#reason}
 
@@ -31,7 +32,7 @@ tags: [위즈웰, 위즈웰오븐, 가정용오븐, 홈베이킹, 베이킹초�
 
 아직 오븐의 특성을 정확히 파악하지 못한 부분도 있어서 여러 번 사용하면서 적절한 설정을 찾고 있습니다.
 
-<div class="image-pair">
+<div class="image-row">
   <figure>
     <img src="/assets/img/wiswell-oven-2.jpg" alt="오븐에 넣기 전 준비한 반죽">
     <figcaption>▲ 오븐에 넣기 전 준비한 반죽</figcaption>
@@ -39,6 +40,10 @@ tags: [위즈웰, 위즈웰오븐, 가정용오븐, 홈베이킹, 베이킹초�
   <figure>
     <img src="/assets/img/wiswell-oven-3.jpg" alt="베이킹 결과물">
     <figcaption>▲ 온도와 시간을 바꿔가며 베이킹 연습 중</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/wiswell-oven-4.jpg" alt="한 번에 구운 초코 아몬드 쿠키">
+    <figcaption>▲ 한 번에 구운 초코 아몬드 쿠키</figcaption>
   </figure>
 </div>
 
@@ -48,16 +53,13 @@ tags: [위즈웰, 위즈웰오븐, 가정용오븐, 홈베이킹, 베이킹초�
 
 쿠키는 팬이 넓어서 한 번에 여러 개를 구울 수 있었습니다. 반죽 사이에 간격을 두고 올려도 한 판에 들어가는 양이 많아 여러 차례 나누어 굽는 번거로움이 적었어요.
 
-![](/assets/img/wiswell-oven-4.jpg)
-*▲ 한 번에 구운 초코 아몬드 쿠키*
-
 완성된 쿠키의 굽기 상태도 만족스러웠습니다.
 
 ## 🍕 피자를 구워보니 {#pizza}
 
 피자는 오븐을 구매할 때부터 가장 먼저 만들고 싶었던 메뉴였습니다. 직접 만든 도우에 원하는 재료를 올려 구웠고, 치즈와 도우 모두 원하는 상태로 완성됐어요.
 
-<div class="image-pair">
+<div class="image-row">
   <figure>
     <img src="/assets/img/wiswell-oven-5.jpg" alt="230도로 설정해 피자를 굽는 모습">
     <figcaption>▲ 230도로 설정해 피자를 굽는 모습</figcaption>
@@ -66,12 +68,13 @@ tags: [위즈웰, 위즈웰오븐, 가정용오븐, 홈베이킹, 베이킹초�
     <img src="/assets/img/wiswell-oven-6.jpg" alt="직접 구운 홈메이드 피자">
     <figcaption>▲ 직접 구운 홈메이드 피자</figcaption>
   </figure>
+  <figure>
+    <img src="/assets/img/wiswell-oven-7.jpg" alt="치즈와 페퍼로니를 올려 구운 빵">
+    <figcaption>▲ 치즈와 페퍼로니를 올려 구운 빵</figcaption>
+  </figure>
 </div>
 
 일반 피자 외에 빵 위에 치즈와 페퍼로니를 올린 메뉴도 만들어 봤습니다. 토핑의 종류와 양을 원하는 대로 조절할 수 있다는 점이 직접 만들어 먹는 장점이었어요.
-
-![](/assets/img/wiswell-oven-7.jpg)
-*▲ 치즈와 페퍼로니를 올려 구운 빵*
 
 ## 👍 직접 써본 장점 {#pros}
 

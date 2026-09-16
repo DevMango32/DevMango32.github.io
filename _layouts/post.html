@@ -6,7 +6,7 @@ layout: default
     <div class="entry-cat"><a href="/{{ page.categories | first }}/">{{ page.categories | first }}</a></div>
     <h1 class="entry-title">{{ page.title }}</h1>
     <div class="entry-meta">{{ site.author.name }} · {{ page.date | date: "%Y. %m. %d. %H:%M" }}</div>
-    <div class="entry-content">{{ content }}</div>
+    <div class="entry-content{% if page.compact_body %} compact-body{% endif %}">{{ content }}</div>
     {% if page.tags != empty %}
     <div class="entry-tags"><span class="t-label">Tag</span>
       {% for tag in page.tags %}<a>{{ tag }}</a>{% endfor %}
