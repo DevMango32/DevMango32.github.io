@@ -31,11 +31,16 @@ tags: [위즈웰, 위즈웰오븐, 가정용오븐, 홈베이킹, 베이킹초�
 
 아직 오븐의 특성을 정확히 파악하지 못한 부분도 있어서 여러 번 사용하면서 적절한 설정을 찾고 있습니다.
 
-![](/assets/img/wiswell-oven-2.jpg)
-*▲ 오븐에 넣기 전 준비한 반죽*
-
-![](/assets/img/wiswell-oven-3.jpg)
-*▲ 온도와 시간을 바꿔가며 베이킹 연습 중*
+<div class="image-pair">
+  <figure>
+    <img src="/assets/img/wiswell-oven-2.jpg" alt="오븐에 넣기 전 준비한 반죽">
+    <figcaption>▲ 오븐에 넣기 전 준비한 반죽</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/wiswell-oven-3.jpg" alt="베이킹 결과물">
+    <figcaption>▲ 온도와 시간을 바꿔가며 베이킹 연습 중</figcaption>
+  </figure>
+</div>
 
 여러 번 사용해 본 결과 현재까지 성공한 메뉴는 **쿠키와 피자**입니다. 처음부터 모든 메뉴를 성공시키기는 어려웠지만, 사용 횟수가 늘면서 설정 방법에는 조금씩 익숙해지고 있어요.
 
@@ -52,11 +57,16 @@ tags: [위즈웰, 위즈웰오븐, 가정용오븐, 홈베이킹, 베이킹초�
 
 피자는 오븐을 구매할 때부터 가장 먼저 만들고 싶었던 메뉴였습니다. 직접 만든 도우에 원하는 재료를 올려 구웠고, 치즈와 도우 모두 원하는 상태로 완성됐어요.
 
-![](/assets/img/wiswell-oven-5.jpg)
-*▲ 230도로 설정해 피자를 굽는 모습*
-
-![](/assets/img/wiswell-oven-6.jpg)
-*▲ 직접 구운 홈메이드 피자*
+<div class="image-pair">
+  <figure>
+    <img src="/assets/img/wiswell-oven-5.jpg" alt="230도로 설정해 피자를 굽는 모습">
+    <figcaption>▲ 230도로 설정해 피자를 굽는 모습</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/wiswell-oven-6.jpg" alt="직접 구운 홈메이드 피자">
+    <figcaption>▲ 직접 구운 홈메이드 피자</figcaption>
+  </figure>
+</div>
 
 일반 피자 외에 빵 위에 치즈와 페퍼로니를 올린 메뉴도 만들어 봤습니다. 토핑의 종류와 양을 원하는 대로 조절할 수 있다는 점이 직접 만들어 먹는 장점이었어요.
 
@@ -76,9 +86,6 @@ tags: [위즈웰, 위즈웰오븐, 가정용오븐, 홈베이킹, 베이킹초�
 **3. 한 번에 많은 양을 구울 수 있다**
 
 오븐과 팬의 크기가 넉넉해서 쿠키처럼 개수가 많은 메뉴도 한 번에 구울 수 있습니다. 여러 번 나누어 굽지 않아도 되기 때문에 많은 양을 만들 때 효율적이에요.
-
-![](/assets/img/wiswell-oven-8.jpg)
-*▲ 많은 양을 한 번에 구울 수 있는 내부 공간*
 
 ## 👎 직접 써본 단점 {#cons}
 

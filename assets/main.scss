@@ -342,6 +342,19 @@ html.dark .darkToggle .knob{left:17px}
   text-align:center; margin:-17px 0 26px;
 }
 
+/* 이어지는 과정 사진 2장 */
+.entry-content .image-pair{
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px;
+  max-width:680px; margin:26px auto;
+}
+.entry-content .image-pair figure{margin:0; min-width:0}
+.entry-content .image-pair img{
+  width:100%; height:auto; aspect-ratio:4/3; object-fit:cover; margin:0;
+}
+.entry-content .image-pair figcaption{
+  margin-top:8px; color:var(--faint); font-size:12.5px; text-align:center;
+}
+
 /* TIP 박스: 인용구 뒤에  {: .tip} */
 .entry-content blockquote.tip{
   font-family:"Pretendard",sans-serif; font-size:14.5px; line-height:1.7; color:var(--muted);
