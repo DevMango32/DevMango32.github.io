@@ -8,11 +8,11 @@ tags: [아망디오, 아몬드쿠키, 초코쿠키, 홈베이킹]
 excerpt: "코코아 반죽에 아몬드를 듬뿍. 냉동실에서 2시간 굳힌 뒤, 180℃에서 17분 구워 만드는 아망디오 쿠키 레시피."
 ---
 
-<link rel="stylesheet" href="{{ '/assets/recipe.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/recipe.css' | relative_url }}?v=2">
 
 <div class="recipe" markdown="1">
 
-아몬드의 고소함과 코코아의 풍미를 함께 즐길 수 있는 아망디오 쿠키입니다. 집에서도 만들어 볼 수 있도록 재료와 만드는 순서를 정리해 보았습니다.
+아망디오는 아몬드를 넣어 만든 쿠키입니다. 고소한 아몬드와 코코아가 어우러지는 맛있는 쿠키 레시피를 소개합니다.
 {: .recipe-intro}
 
 ## 준비할 재료
