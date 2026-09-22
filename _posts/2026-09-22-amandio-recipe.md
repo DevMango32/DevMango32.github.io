@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[레시피] 아몬드를 듬뿍 넣은 아망디오 쿠키"
+title: "[레시피] 아망디오 쿠키"
 date: 2026-09-22 00:00:00 +0900
 categories: baking
 permalink: /food/amandio-recipe/
@@ -12,14 +12,8 @@ excerpt: "코코아 반죽에 아몬드를 듬뿍. 냉동실에서 2시간 굳�
 
 <div class="recipe" markdown="1">
 
-코코아 반죽에 아몬드를 듬뿍 넣은 아망디오 쿠키. 다음에 만들 때 편하게 꺼내 볼 수 있도록 재료와 만드는 순서를 기록해 둡니다.
+아몬드의 고소함과 코코아의 풍미를 함께 즐길 수 있는 아망디오 쿠키입니다. 집에서도 만들어 볼 수 있도록 재료와 만드는 순서를 정리해 보았습니다.
 {: .recipe-intro}
-
-<dl class="recipe-times">
-  <div><dt>냉동</dt><dd>2시간</dd></div>
-  <div><dt>오븐</dt><dd>180℃</dd></div>
-  <div><dt>굽기</dt><dd>17분</dd></div>
-</dl>
 
 ## 준비할 재료
 
@@ -31,6 +25,12 @@ excerpt: "코코아 반죽에 아몬드를 듬뿍. 냉동실에서 2시간 굳�
 | 박력분 | 200g |
 | 코코아 가루 | 20g |
 | 아몬드 | 150g |
+
+<dl class="recipe-times">
+  <div><dt>냉동</dt><dd>2시간</dd></div>
+  <div><dt>오븐</dt><dd>180℃</dd></div>
+  <div><dt>굽기</dt><dd>17분</dd></div>
+</dl>
 
 ## 만드는 순서
 
