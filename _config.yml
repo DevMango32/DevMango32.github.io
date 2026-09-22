@@ -41,3 +41,4 @@ category_nav:
   - name: 일상
     subs:
       - { slug: food, name: 맛따라 }
+      - { slug: baking, name: 베이킹 }

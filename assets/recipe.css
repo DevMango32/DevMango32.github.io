@@ -1,0 +1,25 @@
+/* Recipe typography, scoped to recipe posts. Uses the blog's light/dark tokens. */
+.entry-content .recipe { max-width: 680px; margin: 0 auto; font-size: 16px; line-height: 1.85; }
+.recipe .recipe-intro { color: var(--muted); margin-bottom: 24px; }
+.recipe .recipe-times { display: flex; flex-wrap: wrap; gap: 12px 32px; padding: 20px 24px; margin: 0 0 36px; background: var(--chip2); border-left: 3px solid var(--accent); }
+.recipe-times div { display: flex; align-items: baseline; gap: 10px; }
+.recipe-times dt { color: var(--muted); font-size: 14px; }
+.recipe-times dd { margin: 0; font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.entry-content .recipe h2 { display: block; margin: 44px 0 18px; font-size: 23px; }
+.entry-content .recipe h2::before { content: none; }
+.entry-content .recipe table { margin: 0 0 12px; font-size: 16px; }
+.entry-content .recipe th, .entry-content .recipe td { border: 0; border-bottom: 1px solid var(--line); padding: 12px 16px; }
+.entry-content .recipe th:last-child, .entry-content .recipe td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+.recipe td:last-child { font-weight: 600; }
+.entry-content .recipe .recipe-steps { list-style: none; padding: 0; margin: 0; counter-reset: recipe-step; }
+.recipe .recipe-steps > li { position: relative; counter-increment: recipe-step; padding: 0 0 24px 48px; margin: 0 0 24px; border-bottom: 1px solid var(--line); }
+.recipe .recipe-steps > li::before { content: counter(recipe-step, decimal-leading-zero); position: absolute; top: 0; left: 0; color: var(--muted); font-size: 18px; font-weight: 600; }
+.entry-content .recipe h3 { margin: 0 0 10px; font: 700 18px/1.6 "Pretendard", sans-serif; }
+.entry-content .recipe p { margin: 0 0 12px; }
+.entry-content .recipe p:last-child { margin-bottom: 0; }
+.recipe .recipe-note { padding: 14px 18px; background: var(--chip2); font-size: 14px; color: var(--muted); border-radius: 4px; }
+@media (max-width: 480px) {
+  .recipe .recipe-times { padding: 16px; gap: 10px 24px; }
+  .recipe-times dd { font-size: 18px; }
+  .recipe .recipe-steps > li { padding-left: 38px; }
+}
